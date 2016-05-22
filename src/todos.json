@@ -1,0 +1,18 @@
+module.exports = [
+  {
+    "name": "Comprar el pan",
+    "completed": true
+  },
+  {
+    "name": "Poner la lavadora",
+    "completed": false
+  },
+  {
+    "name": "Tender la ropa",
+    "completed": true
+  },
+  {
+    "name": "Sacar a pasear el perro de la vecina",
+    "completed": false
+  }
+]
