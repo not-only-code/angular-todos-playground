@@ -2,7 +2,6 @@ require('file?name=[name].[ext]!./index.html');
 require('file?name=css/[name].[ext]!../node_modules/todomvc-common/base.css');
 require('file?name=css/[name].[ext]!../node_modules/todomvc-app-css/index.css');
 
-var _ = require('lodash');
 var angular = require('angular');
 var utils = require('./utils.js');
 var uiRouter = require('angular-ui-router');

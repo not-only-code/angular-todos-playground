@@ -1,7 +1,11 @@
 var angular = require('angular');
 var utils = angular.module('app.utils', []);
 
-utils.factory('todosService', function($rootScope, $state) {
+utils.factory('_', function() {
+  return require('lodash');
+});
+
+utils.factory('todosService', function($rootScope, $state, _) {
   // integrar con un respaldo de datos
   var todos = require('./todos.json');
 
