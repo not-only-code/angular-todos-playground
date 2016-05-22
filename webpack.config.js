@@ -5,8 +5,7 @@ module.exports = function() {
         },
         module: {
             loaders: [
-                //{ test: /\.html$/, loader: "html" },
-                //{ test: /\.css$/, loader: "style-loader!css-loader" }
+                { test: /\.tpl\.html$/, loader: "html" }
             ]
         },
         htmlLoader: {
